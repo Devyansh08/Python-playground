@@ -1,7 +1,0 @@
-print("hello world")
-print("hello")
-print("hello")
-print("hsdfllo")
-print("hesdfsdflo")
-print("hello")
-print("helsdfsdflo")
