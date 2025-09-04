@@ -15,7 +15,7 @@
 
 '''We can use slicing to access the parts of string :
         str[starting index : ending index] here the ending index will not included.
-        In negative index also last index is not included 
+        In negative index also last index is not included
 '''
 # name="Devyansh"
 # print(name[4:]) # here this line means [2:len(str)] 
