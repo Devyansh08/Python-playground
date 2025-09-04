@@ -7,7 +7,7 @@ print("Welcome to Python playground")
 
     2.we use + to add two string manually and ','to add different data type mannually '
 
-    3. Python is case sensitive language, A is no equal to a .
+    3. Python is case sensitive language, A is no equal to a.
 """
 # ----------------------------------------------------------------------------------------------
 
