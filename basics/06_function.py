@@ -34,4 +34,44 @@ If no return, Python returns None by default.'''
 #     for i in hero_list:
 #         print(i, end=" ")
 
-# hero_call(heros)
+# hero_call(heros) 
+# ---------------------------------------------
+# -------Recursion function ---------
+'''Recursion when the function call itself to slove an problem where it will run until the base conditon occur.
+syntax:
+                            def recursive_function(parameters):
+                                if base_condition:
+                                    return value       # always imp to give 
+                                else:
+                                    return recursive_function(smaller_problem)
+                                                
+'''
+# def fact(n):
+#     if n==0 or n==1:
+#         return 1
+#     return n * fact(n-1)
+
+# print(fact(5))
+# ---------------------------------------------------------------------
+
+# ------- Some cool python features --------
+# -- f string 
+'''f-string stand for formatted string literal where insert variables, expressions, and function calls directly inside strings using {}'''
+# a , b =5,10
+# print(f"{a} + {b} = {a+b}")
+
+# -- Zip
+'''Combine multiple lists into pairs (very useful when you need to iterate together).'''
+
+names = ["Alice", "Bob", "Charlie"]
+scores = [85, 90, 95]
+
+for name, score in zip(names, scores):
+    print(f"{name} scored {score}")
+
+# -- any() and all() ✅❌
+'''Super handy for checking conditions in collections.'''
+nums = [2, 4, 6, 8]
+
+print(all(n % 2 == 0 for n in nums))  # True (all even)
+print(any(n > 5 for n in nums))       # True (some > 5)
