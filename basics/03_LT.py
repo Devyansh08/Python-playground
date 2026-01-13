@@ -58,10 +58,10 @@ list=[1,2,3,2,1]
 #     print("it is a plaindrom ")
 # else:
 #     print("not an plaindroms")
-'''Another way of doing this '''
-nums = [1,2,3,2,1]
+# '''Another way of doing this '''
+# nums = [1,2,3,2,1]
 
-if nums == nums[::-1]:
-    print("Palindrome")
-else:
-    print("Not Palindrome")
+# if nums == nums[::-1]:
+#     print("Palindrome")
+# else:
+#     print("Not Palindrome")
